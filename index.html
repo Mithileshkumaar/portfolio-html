@@ -4,200 +4,177 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Mithilesh Kumaar js</title>
+      <title>Mithilesh Kumaar - Portfolio</title>
       <link rel="stylesheet" href="styles.css">
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
-      <div class="navbar">
+      <header class="navbar">
             <ul>
-                  <div style="display: flex;">
-                        <img src="./images/m.jpg" style="    margin-left: 0.25rem;
-          margin-right: 0.25rem;max-width: 100%;border-radius: 200px; height: 30px;" />
-                        <div style="padding-top: 5px; margin: 0px 20px;">MITHILESH KUMAAR.</div>
+                  <div class="navbar-left">
+                        <img src="./images/m.jpg" alt="Mithilesh Kumaar" class="profile-img" />
+                        <div class="navbar-name">MITHILESH KUMAAR</div>
                   </div>
-                  <div style="display: flex; margin: 0px 1px; padding-top: 5px;">
-                        <li style="display: flex; margin: 0px 15px;">Home </li>
-                        <li style="display: flex; margin: 0px 15px;">About.Me </li>
-                        <li style="display: flex; margin: 0px 15px;">Service </li>
-                        <li style="display: flex; margin: 0px 15px;">Projects </li>
-
+                  <div class="navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contact</a></li>
                   </div>
             </ul>
-      </div>
-      <div class="portfolio">
+      </header>
 
-            <!-- content  -->
-            <div class="intro">
-                  <div>
-                        <h1 class="name">.MITHILESH KUMAAR</h1>
-                        <div style="font-weight: 400;    font-size: 1.875rem;
-    line-height: 2.25rem;">
-                              <div class="intro-content" style="">
-                                    <span style="font-weight: bold;">Frontend
-                                          Developer</span>, with
-                                    knowledge in web
-                                    development and design, I
-                                    offer the best
-                                    projects resulting in quality work.
-                              </div>
+      <main>
+            <section class="intro" id="home">
+                  <div style="padding: 70px;">
+                        <h1 class="name">MITHILESH KUMAAR</h1>
+                        <div class="intro-content">
+                              <p><strong>Frontend Developer</strong>, with knowledge in web development and design. I
+                                    offer the best projects resulting in quality work.</p>
                               <div class="tag">
-                                    <h5 style="display: flex; gap: 10px; font-weight: normal;">
-                                          <div>Design</div>
-                                          <img src="./arrow.PNG" height="20px" style="padding-top: 10px;">
-                                          <div>Development</div>
-                                          <img src="./arrow.PNG" height="20px" style="padding-top: 10px;">
-                                          <div>WebFlow</div>
+                                    <h5>
+                                          <span>Design</span>
+                                          <img src="./arrow.PNG" alt="arrow" class="arrow-icon">
+                                          <span>Development</span>
+                                          <img src="./arrow.PNG" alt="arrow" class="arrow-icon">
+                                          <span>WebFlow</span>
                                     </h5>
                               </div>
                         </div>
-
                   </div>
-                  <div class="down"><img src="./1.PNG" alt="" width="400px" height="450px"
-                              style="position: absolute; left: 900px; top:190px">
-                        <img src="./arrow.PNG" alt="" height="520px"
-                              style="position: absolute; left: 820px; z-index: -1 ;top:190px">
+                  <div class="down">
+                        <img src="./1.PNG" class="intro-img">
+                        <img src="./arrow.PNG" class="background-arrow">
                   </div>
-            </div>
-            <!-- about
-             -->
-            <div
-                  style="background-image:url(./a2.PNG); background-repeat: no-repeat;background-position-y: 60%;background-position-x: -200px; ">
+            </section>
 
+            <section class="about" id="about">
+                  <div class="about-image">
+                        <img src="./1.PNG" alt="About Me">
+                  </div>
+                  <div class="about-content">
+                        <h1 class="name">ABOUT ME</h1>
+                        <p>Passionate about creating Web Pages with <strong>UI/UX</strong> User Interface. Trained in
+                              <strong>Software and Web Development</strong> and offering top-notch user friendly UI/UX
+                              designing abilities. Motivated to continue to learn and <strong>Grow</strong> as an IT
+                              Professional.
+                        </p>
+                  </div>
+            </section>
 
-                  <div class=" about">
-                        <div><img src="./1.PNG" alt="" width="500px"></div>
-                        <div class="" style="padding:0px 50px">
-                              <h1 class="name">ABOUT.ME</h1>
-                              <div style="font-weight: 400;    font-size: 1.875rem;
-                line-height: 2.25rem;">
-                                    <div
-                                          style="font-size: 28px; line-height: 1.2; font-weight: normal; letter-spacing: 4px; line-height: 45px;">
-                                          Passionate about creating Web Pages with <span
-                                                style="font-weight: bold;">UI/UX</span> User Interface,<br>
-                                          Trained in <span style="font-weight: bold;">Software and Web
-                                                Development</span> and offering top-notch user friendly UI/UX
-                                          designing
-                                          abilities.<br>
-                                          Motivated to continue to learn and <span
-                                                style="font-weight: bold;">Grow</span> as
-                                          an IT Professional.
+            <section class="services" id="services">
+                  <h1>SERVICES</h1>
+                  <div class="service-boxes">
+                        <div>
+                              <div class="box">
+                                    <h2>Web Design</h2>
+                                    <p>Design to us is something magical - we are lucky that our clients let us get
+                                          creative
+                                          and build new products.</p>
+                              </div>
+                              <div class="box">
+                                    <h2>Product Design</h2>
+                                    <p>Every single project is a challenge that we accept eagerly. Let's implement
+                                          innovative
+                                          ideas together!</p>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="box">
+                                    <h2>UI/UX Design</h2>
+                                    <p>Our technical support team is willing to solve any inquiry that comes from our
+                                          clients
+                                          within minutes.</p>
+                              </div>
+                              <div class="box">
+                                    <h2>Development</h2>
+                                    <p>Development to us is something magical - we are lucky that our clients let us get
+                                          and
+                                          build new products.</p>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <div id="project">
+                  <h1>Projects</h1>
+                  <div class="p-content" style="padding-top: 20px;">
+                        <div class="p1">
+                              <div><img src="c.webp" height="250px" style="padding-top: 20px;"></div>
+                              <div style="margin-left: 60px;">
+                                    <div style="background: #FC5D2E; color: white; padding: 0 15px; max-width: 170px;">
+                                          <h2>CREASE</h2>
                                     </div>
-                              </div>
-
-                        </div>
-
-                  </div>
-            </div>
-            <div id="service">
-                  <h1 style="text-align: center;">SERVICES</h1>
-                  <div class="s1">
-                        <div class="box">
-                              <h2>Web Design</h2>
-                              <h4>Design to us is something magical - we are lucky that our let us get
-                                    creative
-                                    and build new products.</h4>
-                        </div>
-                        <div class="box">
-                              <h2>Product Design</h2>
-                              <h4>Every single project is a challenge that we accept eagerly. Let's
-                                    implement
-                                    innovative ideas together!</h4>
-                        </div>
-                  </div>
-                  <div class="s2">
-                        <div class="box">
-                              <h2>UI/UX Design</h2>
-                              <h4>Our technical support team is willing to solve any inquiry that comes from
-                                    our
-                                    clients within minutes.</h4>
-                        </div>
-                        <div class="box">
-                              <h2>Development</h2>
-                              <h4>Development to us is something magical - we are lucky that our clients let
-                                    me
-                                    get and build new products.</h4>
-                        </div>
-                  </div>
-            </div>
-
-            <!-- projects -->
-
-            <div class="projects">
-                  <h1 style="text-align: center; font-weight: normal; letter-spacing: 5px;">
-                        PROJECTS
-                  </h1>
-                  <div style="display: flex;">
-                        <div class="card_p" style="margin: 30px; width: 600px; height: 370px;">
-                              <img src="./images/d.jpeg" alt="">
-                              <path
-                                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z">
-                              </path>
-                              </svg>
-                              <div class="card__content">
-                                    <p class="card__title">HOSPTIAL
-                                    </p>
-                                    <p class="card__description">A Mobile app to help people with emergency
-                                          with helps people to find ambulance,available beds in hospital in a much
-                                          feasible
-                                          way</p>
-
+                                    <h3 style="font-size: 25px;">A cricket fantasy website, which gets
+                                          people
+                                          connected with the game of cricket.</h3>
                               </div>
                         </div>
-                        <div class="card_p" style="margin: 30px; width: 600px;height: 370px;">
-                              <img src="./images/cricket.jpeg" alt="">
-                              <path
-                                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z">
-                              </path>
-                              </svg>
-                              <div class="card__content">
-                                    <p class="card__title">CRICKET
-                                    </p>
-                                    <p class="card__description">A cricket fantasy website, which gets people
-                                          connected
-                                          with the game of cricket.
-                                          this projet was built in 2021.
-                                    </p>
+                        <div class="p2">
+                              <div>
+                                    <div style="background: #FC5D2E; color: white; padding: 0 15px; max-width: 170px;">
+                                          <h2>HOSPITAL</h2>
+                                    </div>
+                                    <h3 style="font-size: 25px; max-width: 500px;">A Mobile app to help
+                                          people
+                                          with emergency.</h3>
                               </div>
+                              <img src="d.jpeg" height="250px" width="500px"
+                                    style="padding-left: 65px; padding-top: 20px;">
                         </div>
-                        <div class="card_p" style="margin: 30px;width: 600px; height: 370px;">
-                              <img src="./images/do.jpeg" alt="">
-                              <path
-                                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z">
-                              </path>
-                              </svg>
-                              <div class="card__content">
-                                    <p class="card__title">DONATION
-                                    </p>
-                                    <p class="card__description">A Web based Application which helps to the
-                                          orphan's eat
-                                          BETTER.</p>
-                              </div>
-                        </div>
-                        <div class="card_p" style="margin: 30px;width: 600px; height: 370px;">
-                              <img src="./images/c.jpeg" alt="">
-                              <path
-                                    d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z">
-                              </path>
-                              </svg>
-                              <div class="card__content">
-                                    <p class="card__title">CULTURALS
-                                    </p>
-                                    <p class="card__description">Collaborated with the college cultural team to
-                                          develop
-                                          a website for the cultural event..</p>
+                        <div class="p3">
+                              <img src="do.jpeg" height="250px" width="500px" style="padding-top: 20px;">
+                              <div style="margin-left: 60px;">
+                                    <div style="background: #FC5D2E; color: white; padding: 0 15px; max-width: 170px;">
+                                          <h2>DONATION</h2>
+                                    </div>
+                                    <h3 style="font-size: 25px;">A Web based Application which helps to the
+                                          orphan's eat BETTER</h3>
                               </div>
                         </div>
                   </div>
             </div>
-            <!-- CONTACT -->
-            <div id='contacts'>
+            <!-- <section class="projects" id="projects">
+                  <h1>PROJECTS</h1>
+                  <div class="project-cards">
+                        <div class="card_p">
+                              <img src="./images/d.jpeg" alt="Hospital Project">
+                              <div class="card__content">
+                                    <h3>HOSPITAL</h3>
+                                    <p>A Mobile app to help people with emergency by finding ambulance, available beds
+                                          in hospital in a much feasible way.</p>
+                              </div>
+                        </div>
+                        <div class="card_p">
+                              <img src="./images/cricket.jpeg" alt="Cricket Project">
+                              <div class="card__content">
+                                    <h3>CRICKET</h3>
+                                    <p>A cricket fantasy website, connecting people with the game of cricket. Built in
+                                          2021.</p>
+                              </div>
+                        </div>
+                        <div class="card_p">
+                              <img src="./images/do.jpeg" alt="Donation Project">
+                              <div class="card__content">
+                                    <h3>DONATION</h3>
+                                    <p>A Web-based Application which helps orphans eat better.</p>
+                              </div>
+                        </div>
+                        <div class="card_p">
+                              <img src="./images/c.jpeg" alt="Culturals Project">
+                              <div class="card__content">
+                                    <h3>CULTURALS</h3>
+                                    <p>Collaborated with the college cultural team to develop a website for the cultural
+                                          event.</p>
+                              </div>
+                        </div>
+                  </div>
+            </section> -->
 
-
+            <section id='contacts'>
                   <div class=' hi '>
-
                         <div>
                               <div style="display: flex; margin: 0px 100px; font-weight: normal;">
                                     <div>
@@ -217,53 +194,45 @@
                                                       <span>Social</span>
 
                                                       <a class="social-link" href="https://github.com/Mithileshkumaar">
-                                                            <ion-icon name="logo-github"></ion-icon>
+                                                            <ion-icon name="logo-github"
+                                                                  style="color: black;"></ion-icon>
                                                       </a>
                                                       <a class="social-link"
                                                             href="https://www.linkedin.com/in/mithilesh-kumaar-84b011216/">
-                                                            <ion-icon name="logo-linkedin"></ion-icon>
+                                                            <ion-icon name="logo-linkedin"
+                                                                  style="color: black;"></ion-icon>
                                                       </a>
                                                       <a class="social-link" href="tel:9003107555">
-                                                            <ion-icon name="call"></ion-icon>
+                                                            <ion-icon name="call" style="color: black;"></ion-icon>
                                                       </a>
                                                       <a class="social-link"
                                                             href="https://www.instagram.com/mithilesh_kumaar/">
-                                                            <ion-icon name="logo-instagram"></ion-icon>
+                                                            <ion-icon name="logo-instagram"
+                                                                  style="color: black;"></ion-icon>
                                                       </a>
                                                       <a class="social-link"
                                                             href="https://www.facebook.com/mithilesh.kumaar/">
-                                                            <ion-icon name="logo-facebook"></ion-icon>
+                                                            <ion-icon name="logo-facebook"
+                                                                  style="color: black;"></ion-icon>
                                                       </a>
                                                       <a class="social-link"
                                                             href="mailto: mithilesh.kumaar2015@gmail.com">
-                                                            <ion-icon name="mail"></ion-icon>
+                                                            <ion-icon name="mail" style="color: black;"></ion-icon>
                                                       </a>
 
                                                 </div>
 
 
                                           </div>
-
-
                                     </div>
                               </div>
 
 
-
-
-
-
                         </div>
-
-
-
                   </div>
+            </section>
 
-
-
-
-            </div>
-      </div>
+      </main>
 </body>
 
 </html>
