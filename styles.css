@@ -768,7 +768,7 @@ body {
 ul {
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 0px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -798,6 +798,9 @@ a {
 
 }
 
+h3 {
+      font-weight: normal;
+}
 
 
 .profile-img {
@@ -830,6 +833,7 @@ a {
 .intro-content {
       font-size: 1.875rem;
       line-height: 2.25rem;
+
 }
 
 .arrow-icon {
@@ -845,6 +849,7 @@ a {
 .intro-img {
       width: 400px;
       height: 450px;
+
 }
 
 .background-arrow {
@@ -931,13 +936,89 @@ a {
 
 
 
+.s-elements {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap-reverse;
+}
+
+
+.progress-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+
+.progress-circle {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      margin: 20px;
+}
+
+.progress-circle svg {
+      transform: rotate(-90deg);
+      width: 100px;
+      height: 100px;
+}
+
+.progress-circle circle {
+      fill: none;
+      stroke-width: 10;
+}
+
+.progress-circle .bg {
+      stroke: #eee;
+}
+
+.progress-circle .progress {
+      stroke: #FA6C4C;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.5s;
+}
+
+.progress-circle .progress-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      font-weight: bold;
+}
+
+.s-2 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+}
+
 #project {
       padding-top: 150px;
       text-align: center;
-      padding: 50px 200px;
+      padding: 50px 10px;
+      background-image: url(./a3.PNG);
+      background-repeat: no-repeat;
+      background-position-x: 1250px;
+      background-position-y: 100px;
+
+
 }
 
-.p-content {
+.p-element {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+}
+
+.p-box {
+      border: #000 .9px solid;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: start;
+}
+
+/* .p-content {
       display: flex;
       flex-direction: column;
 
@@ -953,7 +1034,7 @@ a {
       margin: 20px 0;
       text-align: start;
       padding-top: 10px;
-}
+} */
 
 /* .project-cards {
       display: flex;
