@@ -770,20 +770,35 @@ ul {
       padding: 0;
       margin: 0;
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
+      text-decoration: none;
+      gap: 20px;
+      justify-content: center;
+      padding-top: 7px;
+}
+
+a {
+      color: black;
+      text-decoration: none;
+
 }
 
 .navbar {
-      margin: 20px 30px;
-      padding: 10px 100px;
-      background: #fff;
+      margin: 0px 0px;
+      padding: 0px;
+      background: #F2F1EF;
       box-shadow: 4px 5px 17px -4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      flex-wrap: wrap;
+
 }
 
-.navbar-left {
-      display: flex;
-      align-items: center;
-}
+
 
 .profile-img {
       border-radius: 50%;
@@ -795,19 +810,9 @@ ul {
       font-weight: bold;
 }
 
-.navbar-right li {
-      margin: 0 15px;
-}
 
-.navbar-right a {
-      text-decoration: none;
-      color: black;
-      transition: color 0.3s;
-}
 
-.navbar-right a:hover {
-      color: #555;
-}
+
 
 .name {
       font-weight: bold;
@@ -818,7 +823,8 @@ ul {
 .intro {
       display: flex;
       justify-content: space-between;
-      padding: 90px 70px;
+      padding: 90px 90px;
+      margin: 0px 70px;
 }
 
 .intro-content {
@@ -870,6 +876,7 @@ ul {
       background-repeat: no-repeat;
       background-position-x: -200px;
       background-position-y: 100px;
+
 }
 
 .about-image img {
@@ -890,22 +897,22 @@ ul {
 
 #services {
 
-      margin: 20px 200px;
+
       padding-top: 200px;
       padding: 150px 30px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-}
-
-.services {
-      padding: 100px 50px;
       text-align: center;
+
+      position: relative;
+
 }
+
+
 
 .service-boxes {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
 }
 
 .box {
@@ -933,6 +940,7 @@ ul {
 .p-content {
       display: flex;
       flex-direction: column;
+
       align-items: center;
 }
 
@@ -940,7 +948,7 @@ ul {
 .p2,
 .p3 {
       display: flex;
-
+      flex-wrap: wrap;
       justify-content: center;
       margin: 20px 0;
       text-align: start;
