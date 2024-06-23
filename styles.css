@@ -271,6 +271,7 @@ h3 {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+
 }
 
 .skills {
@@ -325,6 +326,11 @@ h3 {
       display: flex;
       flex-wrap: wrap;
       gap: 40px;
+
+}
+
+.s-1 {
+      padding-bottom: 30px;
 }
 
 #project {
@@ -352,6 +358,7 @@ h3 {
       text-align: start;
       height: 300px;
       margin: 20px 0px;
+      margin-bottom: 60px;
 }
 
 /* .p-content {
