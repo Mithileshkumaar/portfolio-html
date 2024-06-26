@@ -100,8 +100,8 @@ h3 {
 .intro {
       display: flex;
       justify-content: space-between;
-      padding: 90px 90px;
-      margin: 0px 70px;
+      padding: 90px 100px;
+      margin: 0px 10px;
 }
 
 .intro-content {
