@@ -361,6 +361,13 @@ h3 {
       margin-bottom: 60px;
 }
 
+#contact {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #dad6d6;
+      flex-wrap: wrap;
+}
+
 /* .p-content {
       display: flex;
       flex-direction: column;
