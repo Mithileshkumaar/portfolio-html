@@ -342,6 +342,10 @@ h3 {
       background-position-x: 1250px;
       background-position-y: 100px;
       margin: 30px 0px;
+
+
+
+
 }
 
 .p-element {
@@ -366,6 +370,7 @@ h3 {
       justify-content: space-evenly;
       background-color: #dad6d6;
       flex-wrap: wrap;
+      width: 90%;
 }
 
 /* .p-content {
