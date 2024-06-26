@@ -23,6 +23,15 @@ a {
       text-decoration: none;
 }
 
+a:hover {
+      color: white;
+      background: linear-gradient(75deg, rgb(222, 69, 4) 20%, rgb(196, 94, 12) 60%);
+      padding: 5px 8px;
+      background-color: #080808;
+      border-radius: 3px;
+
+}
+
 .navbar {
       margin: 0;
       padding: 0;
